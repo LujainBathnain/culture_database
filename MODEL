@@ -1,0 +1,29 @@
+package MODEL;
+
+public class cultures {
+
+	private String Word1;
+	private String Word2;
+
+	public cultures(String word_t, String word_j) {
+		Word1 = word_t;
+		Word2 = word_j;
+	}
+
+	public String getWord1() {
+		return Word1;
+	}
+
+	public void setWord1(String word1) {
+		this.Word1 = word1;
+	}
+
+	public String getWord2() {
+		return Word2;
+	}
+
+	public void setWord2(String word2) {
+		this.Word2 = word2;
+	}
+
+}
